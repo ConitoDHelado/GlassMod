@@ -13,8 +13,8 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
-       public static final Block MOSAIC_GLASS_BLOCK = registerBlock("mosaic_glass_block",
-               new Block(FabricBlockSettings.of(Material.GLASS).strength()))
+    public static final Block MOSAIC_GLASS_BLOCK = registerBlock("mosaic_glass_block",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength(4f).requiresTool()),ItemGroup.BUILDING_BLOCKS);
 
 
 
@@ -25,7 +25,7 @@ public class ModBlocks {
 
     private static Item registerBlockItem(String name, Block block, ItemGroup tab) {
         return Registry.register(Registry.ITEM, new Identifier(GlassMod.MOD_ID, name),
-            new BlockItem(Block,new FabricItemSettings().group(tab)));
+            new BlockItem(block,new FabricItemSettings().group(tab)));
 
     }
     public static void registerModBlocks(){

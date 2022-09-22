@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "glassmod:block/mosaic_glass_block"
+  }
+}

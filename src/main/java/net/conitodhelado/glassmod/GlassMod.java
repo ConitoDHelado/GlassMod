@@ -11,7 +11,6 @@ public class GlassMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
 		ModBlocks.registerModBlocks();
 
 	}
