@@ -9,12 +9,13 @@ import net.minecraft.client.particle.SpellParticle;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
     public static final Block MOSAIC_GLASS_BLOCK = registerBlock("mosaicglass_block",
-            new Block(FabricBlockSettings.of(Material.GLASS).strength(4f).requiresTool().nonOpaque()),ItemGroup.BUILDING_BLOCKS);
+            new Block(FabricBlockSettings.of(Material.GLASS).strength(.3F,.3F).requiresTool().sounds(BlockSoundGroup.GLASS)),ItemGroup.BUILDING_BLOCKS);
 
 
 
