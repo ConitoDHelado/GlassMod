@@ -15,7 +15,7 @@ import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
     public static final Block MOSAIC_GLASS_BLOCK = registerBlock("mosaicglass_block",
-            new Block(FabricBlockSettings.of(Material.GLASS).strength(.3F,.3F).requiresTool().sounds(BlockSoundGroup.GLASS)),ItemGroup.BUILDING_BLOCKS);
+            new Block(FabricBlockSettings.of(Material.GLASS).strength(.3F,.3F).requiresTool().sounds(BlockSoundGroup.GLASS).nonOpaque()),ItemGroup.BUILDING_BLOCKS);
 
 
 
