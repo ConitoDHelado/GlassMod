@@ -1,0 +1,6 @@
+{
+  "parent": "glassmod:block/mosaicglass_pane_block",
+  "textures": {
+    "layer0": "glassmod:block/mosaicglass_pane_block"
+  }
+}
