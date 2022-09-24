@@ -1,7 +1,8 @@
 {
   "replace": false,
   "values": [
-    "glassmod:mosaicglass_block"
+    "glassmod:mosaicglass_block",
+    "glassmod:mosaicglass_pane"
   ]
 
 }

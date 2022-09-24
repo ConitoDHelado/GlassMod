@@ -17,7 +17,7 @@ public class ModBlocks {
     public static final Block MOSAIC_GLASS_BLOCK = registerBlock("mosaicglass_block",
             new GlassBlock(FabricBlockSettings.of(Material.GLASS).strength(3F,3F).requiresTool().sounds(BlockSoundGroup.GLASS).nonOpaque()),
             ItemGroup.BUILDING_BLOCKS);
-    public static final Block MOSAIC_GLASS_PANE = registerBlock("mosaicglass_pane_block.json",
+    public static final Block MOSAIC_GLASS_PANE = registerBlock("mosaicglass_pane",
             new PaneBlock(FabricBlockSettings.of(Material.GLASS).strength(3F,3F).requiresTool().sounds(BlockSoundGroup.GLASS).nonOpaque()),
             ItemGroup.BUILDING_BLOCKS);
 

@@ -9,6 +9,7 @@ public class GlassModClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MOSAIC_GLASS_BLOCK, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MOSAIC_GLASS_PANE, RenderLayer.getTranslucent());
 
     }
 }
